@@ -18,15 +18,17 @@ export default async function Job() {
             className="flex items-start lg:gap-x-6 gap-x-4 max-w-2xl relative before:absolute before:bottom-0 before:top-[4.5rem] before:left-7 before:w-[1px] before:h-[calc(100%-50px)] before:bg-zinc-800"
           >
             <a
+          
               href={data.url}
               rel="noreferrer noopener"
-              className="min-h-[60px] min-w-[60px] rounded-md overflow-clip relative"
+              className="min-h-[60px] min-w-[60px] rounded-md overflow-clip relative  bg-slate-100"
             >
               <Image
                 src={data.logo}
                 className="object-cover"
                 alt={`${data.name} logo`}
                 fill
+                
               />
             </a>
             <div className="flex flex-col items-start">

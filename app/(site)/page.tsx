@@ -6,8 +6,7 @@ import Job from "./components/Job";
 export default async function Home() {
   const profile: ProfileType[] = await getProfile();
 
- 
-  
+  console.log(profile);
 
   return (
     <main className="max-w-7xl mx-auto lg:px-16 px-6">

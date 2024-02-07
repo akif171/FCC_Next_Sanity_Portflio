@@ -9,7 +9,7 @@ export async function getProfile() {
       fullName,
       headline,
       profileImage {alt, "image": asset->url},
-      shortBio,
+      shortBio, 
       location,
       fullBio,
       email,
@@ -24,7 +24,7 @@ export async function getJob() {
   return client.fetch(
     groq`*[_type == "job"]{
       _id,
-      name,
+      name,  
       jobTitle,
       "logo": logo.asset->url,
       url,

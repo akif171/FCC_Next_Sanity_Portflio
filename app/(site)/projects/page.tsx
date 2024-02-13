@@ -28,12 +28,14 @@ export default async function Project() {
             <Image
               src={project.logo}
               width={300}
-              height={200}    
+              height={200}
               alt={project.name}
               className="bg-zinc-800 rounded-md  w-full "
             />
             <div className="mt-2">
-              <h2 className="font-semibold mb-1 text-left">{project.name}</h2>
+              <h2 className="font-semibold mb-1ear text-left">
+                {project.name}
+              </h2>
             </div>
           </Link>
         ))}
